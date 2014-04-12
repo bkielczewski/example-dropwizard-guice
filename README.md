@@ -1,5 +1,5 @@
-Spring MVC Embedded Jetty Example
-=================================
+Dropwizard with Guice and JPA Example
+=====================================
 
 Dropwizard application using Guice and JPA
 
