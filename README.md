@@ -13,5 +13,5 @@ Requirements
 Quick start
 -----------
 1. `mvn package`
-2. `java -jar target/dropwizard-guice-1.0-SNAPSHOT.jar`
+2. `java -jar target/example-dropwizard-guice-1.0-SNAPSHOT.jar`
 3. Point your browser to [http://localhost:8080/hello](http://localhost:8080/hello)
