@@ -1,6 +1,6 @@
-package eu.kielczewski.example.dropwizard.hello;
+package eu.kielczewski.example.resource;
 
-import eu.kielczewski.example.dropwizard.config.MessagesConfiguration;
+import eu.kielczewski.example.config.MessagesConfiguration;
 
 import javax.inject.Inject;
 import javax.servlet.http.HttpServletRequest;

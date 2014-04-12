@@ -1,4 +1,4 @@
-package eu.kielczewski.example.dropwizard.config;
+package eu.kielczewski.example.config;
 
 import com.yammer.dropwizard.config.Configuration;
 

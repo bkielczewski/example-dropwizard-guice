@@ -1,4 +1,4 @@
-package eu.kielczewski.example.dropwizard;
+package eu.kielczewski.example;
 
 import com.google.inject.AbstractModule;
 import com.google.inject.Guice;
@@ -8,13 +8,13 @@ import com.google.inject.persist.jpa.JpaPersistModule;
 import com.yammer.dropwizard.Service;
 import com.yammer.dropwizard.config.Bootstrap;
 import com.yammer.dropwizard.config.Environment;
-import eu.kielczewski.example.dropwizard.config.DatabaseConfiguration;
-import eu.kielczewski.example.dropwizard.config.ExampleServiceConfiguration;
-import eu.kielczewski.example.dropwizard.config.MessagesConfiguration;
-import eu.kielczewski.example.dropwizard.dao.UserDao;
-import eu.kielczewski.example.dropwizard.dao.UserDaoImpl;
-import eu.kielczewski.example.dropwizard.hello.HelloResource;
-import eu.kielczewski.example.dropwizard.hello.UserResource;
+import eu.kielczewski.example.config.DatabaseConfiguration;
+import eu.kielczewski.example.config.ExampleServiceConfiguration;
+import eu.kielczewski.example.config.MessagesConfiguration;
+import eu.kielczewski.example.dao.UserDao;
+import eu.kielczewski.example.dao.UserDaoImpl;
+import eu.kielczewski.example.resource.HelloResource;
+import eu.kielczewski.example.resource.UserResource;
 
 import java.util.Properties;
 

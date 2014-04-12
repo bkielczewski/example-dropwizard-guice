@@ -1,7 +1,7 @@
-package eu.kielczewski.example.dropwizard.dao;
+package eu.kielczewski.example.dao;
 
 import com.google.inject.persist.Transactional;
-import eu.kielczewski.example.dropwizard.model.User;
+import eu.kielczewski.example.model.User;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;

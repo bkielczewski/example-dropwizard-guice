@@ -1,7 +1,7 @@
-package eu.kielczewski.example.dropwizard.hello;
+package eu.kielczewski.example.resource;
 
-import eu.kielczewski.example.dropwizard.dao.UserDao;
-import eu.kielczewski.example.dropwizard.model.User;
+import eu.kielczewski.example.dao.UserDao;
+import eu.kielczewski.example.model.User;
 
 import javax.inject.Inject;
 import javax.validation.Valid;
