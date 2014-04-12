@@ -1,0 +1,8 @@
+messages:
+  hello: Hello world!
+
+database:
+  driverClass: com.mysql.jdbc.Driver
+  user:
+  password:
+  url: jdbc:mysql://localhost/test
